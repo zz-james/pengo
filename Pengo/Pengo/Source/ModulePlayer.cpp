@@ -12,7 +12,7 @@
 #include "ModuleFonts.h"
 #include "ScenePoints.h"
 #include "Score.h"
-#include <SDL_mixer\include\SDL_mixer.h>
+#include "SDL_mixer/include/SDL_mixer.h"
 
 ModulePlayer::ModulePlayer(bool startEnabled) : Module(startEnabled)
 {

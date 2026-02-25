@@ -57,7 +57,8 @@ int ModuleFonts::Load(const char* texture_path, const char* characters, uint row
 	// char_w --------	Width of each character
 	// char_h --------	Height of each character
 
-	strcpy_s(fonts[id].table, MAX_FONT_CHARS, characters);
+	strncpy(fonts[id].table, characters, MAX_FONT_CHARS - 1);
+	fonts[id].table[MAX_FONT_CHARS - 1] = '\0';
 	font.totalLength = strlen(characters);
 	font.columns = fonts[id].totalLength / rows;
 

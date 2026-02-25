@@ -12,7 +12,7 @@
 #include "ModuleUI.h"
 #include "ModuleStars.h"
 #include "ModuleParticles.h"
-#include <SDL_mixer\include\SDL_mixer.h>
+#include "SDL_mixer/include/SDL_mixer.h"
 
 SceneLevel1::SceneLevel1(bool startEnabled) : SceneLevel(startEnabled)
 {

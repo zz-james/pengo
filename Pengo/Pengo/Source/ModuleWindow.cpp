@@ -46,10 +46,6 @@ bool ModuleWindow::Init()
 			LOG("Window could not be created! SDL_Error: %s\n", SDL_GetError());
 			ret = false;
 		}
-		else
-		{
-			screenSurface = SDL_GetWindowSurface(window);
-		}
 	}
 
 	return ret;

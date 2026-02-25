@@ -47,7 +47,7 @@ bool SceneIntermission::Start()
 	return ret;
 }
 
-#include <SDL_mixer\include\SDL_mixer.h>
+#include "SDL_mixer/include/SDL_mixer.h"
 
 Update_Status SceneIntermission::Update()
 {

@@ -1,4 +1,6 @@
 #include "Globals.h"
+#include <cstring>
+#include <cmath>
 #include "Application.h"
 #include "ModuleInput.h"
 #include "ModuleDebug.h"

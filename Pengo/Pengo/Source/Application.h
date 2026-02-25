@@ -2,6 +2,7 @@
 #define __APPLICATION_H__
 
 #include "Globals.h"
+#include <cstdint>
 
 #define NUM_MODULES 36
 
@@ -122,7 +123,7 @@ private:
 	const int FPS = 60;
 	const int frameDelay = 1000 / FPS;
 
-	UINT64 frameStart;
+	uint64_t frameStart;
 	int frameTime;
 };
 
